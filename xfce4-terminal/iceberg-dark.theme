@@ -1,0 +1,9 @@
+[Scheme]
+Name=Iceberg (dark)
+ColorForeground=#c6c8d1
+ColorBackground=#161821
+ColorCursor=#818596
+TabActivityColor=#ceb0b6
+ColorPalette=#45493e;#ceb0b6;#c0c5b9;#b3c3cc;#6b7089;#d33682;#a093c7;#17171b;#161821;#b4be82;#eff0f4;#0f1117;#c6c8d1;#84a0c6;#818596;#fdf6e3
+ColorBold=#818596
+ColorBoldUseDefault=FALSE
