@@ -1,0 +1,44 @@
+#                                                                               
+# Iceberg mutt theme from: https://miek.nl/2019/august/12/my-terminal-setup/
+# @author Miek Gieben
+# @modifications sairuk
+#
+color indicator          color110      color237
+color status             color233      color238
+color error              color203      color234
+
+color normal             color252      color234
+color tree               color242      color234
+color message            color203      color234
+
+color signature          color255     color234
+color attachment         color110     color235
+color search             color214     color203
+color tilde              color110     color234
+color markers            color203     color234
+color bold               color123     color234
+color underline          color110     color234
+
+color hdrdefault         color243    color234 # default header lines
+color header             color216    color234  "^Subject:"
+
+color index              color216    color234 ~N
+color index              color251    color234 ~O
+color index              color242    color234 "!~N"
+color index              color110    color234 ~Q
+color index              color140    color234 "~Q~N"
+color index              color95     color234 ~D
+
+color quoted             color242    color234
+color quoted1            color252    color234
+color quoted2            color242    color234
+color quoted3            color252    color234
+
+color header             color110    color234 "[\-\.+_a-zA-Z0-9]+@[\-\.a-zA-Z0-9]+" # email
+color body               color110    color234 "[\-\.+_a-zA-Z0-9]+@[\-\.a-zA-Z0-9]+" # email
+color body               color110    color234 "(http|ftp|https)://[\-\.\,/+=&%~_:?\#a-zA-Z0-9]+" # URL
+
+color sidebar_highlight  color110    color235
+color sidebar_divider    color232    color232
+color sidebar_flagged    color123    color234
+color sidebar_new        color110    color234
